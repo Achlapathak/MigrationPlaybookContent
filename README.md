@@ -190,7 +190,6 @@ An explanation of each of the properties and its expected values follows:
 * logoAltText
   * The alt text displayed to the user if the image is unavailable; also used with screen readers.
 
-
 ## JSON format
 The detail here will not be exhaustive, but remember that JSON is pretty finicky and there's little to no wiggle room. As a result, it is recommended to use the template and to adhere to the following rules:
   * Do NOT modify field names - only modify the values.
