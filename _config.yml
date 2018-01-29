@@ -1,0 +1,91 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Data Migration Playbook
+email: v-raypri@microsoft.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+
+#url: https://jekylltest.azurewebsites.net
+#baseurl: /en-us/sql-server/developer-get-started
+
+disqus:
+  shortname: sqlchoice
+
+gitter: https://gitter.im/Microsoft/MigrationPlaybook
+
+steps:
+  1: Set up your environment
+  2: Migrate your data to $$
+  3: Wrap-up and Clean-up
+
+menu:
+  sqlserver:
+    logo: java.png
+    pages:
+      azuresql: sqlserver/azuresql
+      
+      
+resources:
+  sqlserver-csharp:
+    pre: Check out what's new with
+    text: SQL Server + C# on Channel 9
+    link: https://channel9.msdn.com/Events/Connect/2016/151
+    condition: C#
+  sqlserver-java:
+    pre: Check out what's new with
+    text: SQL Server + Java on Channel 9
+    link: https://channel9.msdn.com/Events/Connect/2016/152
+    condition: Java
+  sqlserver-node:
+    pre: Check out what's new with
+    text: SQL Server + Node.js on Channel 9
+    link: https://channel9.msdn.com/Events/Connect/2016/160
+    condition: Node.js
+  sqlserver-php:
+    pre: Check out what's new with
+    text: SQL Server + PHP on Channel 9
+    link: https://channel9.msdn.com/Events/Connect/2016/182
+    condition: PHP
+  sqlserver-py:
+    pre: Check out what's new with
+    text: SQL Server + Python on Channel 9
+    link: https://channel9.msdn.com/Events/Connect/2016/189
+    condition: Python
+  github:
+    pre: Browse more SQL Server code samples (In-Memory, Dynamic Data Masking, R, etc.) on our
+    text: GitHub repository
+    link: https://github.com/Microsoft/sql-server-samples/tree/master/samples/
+  linux:
+    pre: Learn more about
+    text: SQL Server on Linux
+    link: https://channel9.msdn.com/Events/Connect/2016/101
+  connect:
+    pre: Watch more
+    text: Connect(); event videos
+    link: https://channel9.msdn.com/Events/Connect/2016
+  labs:
+    pre: Browse our
+    text: Virtual Labs Gallery
+    link: https://technet.microsoft.com/en-us/virtuallabs
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from
