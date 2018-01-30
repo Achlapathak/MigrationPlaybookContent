@@ -31,14 +31,76 @@ gitter: https://gitter.im/Microsoft/MigrationPlaybook
 steps:
   1: Set up your environment
   2: Migrate your data to $$
-  3: Wrap-up and Clean-up
+  3: Wrap-up and clean-up
+
+#  	"source0_target0" : "sql-to-sqlserver",
+#		"source0_target1" : "sql-to-azuresql",
+#		"source1_target0" : "oracle-to-sqlserver",
+#		"source1_target1" : "oracle-to-azuresql",
+#		"source1_target3" : "oracle-to-azurepostgresql",
+#		"source2_target0" : "db2-to-sqlserver",
+#		"source2_target1" : "db2-to-azuresql",
+#		"source3_target0" : "mysql-to-sqlserver2016",
+#		"source3_target1" : "mysql-to-azuresql",
+#		"source3_target2" : "mysql-to-azuremysql",
+#		"source4_target3" : "postgresql-to-azurepostgresql",
+#		"source5_target0" : "sybase-to-sqlserver",
+#		"source5_target1" : "sybase-to-azuresql",
+#		"source6_target0" : "access-to-sqlserver",
+#		"source6_target1" : "access-to-azuresql",
+#		"source7_target4" : "mongo-to-cosmos",
+#		"source8_target4" : "azuretable-to-cosmos"
 
 menu:
-  sqlserver:
-    logo: java.png
-    pages:
-      azuresql: sqlserver/azuresql
-      
+    sqlserver:
+        logo: sql-server.png
+        pages:
+            Azure SQL: sqlserver/azuresql
+            sqlserver: sqlserver/sqlserver
+    oracle:
+        logo: oracle.png
+        pages:
+           azuresql: oracle/azuresql
+           sqlserver: oracle/sqlserver
+           azurepostgresql: oracle/azurepostgresql
+    db2:
+        logo: DB2.png
+        pages:
+            azuresql: db2/azuresql
+            sqlserver: db2/sqlserver
+    mysql:
+        logo: MySQL.png
+        pages:
+            azuresql: mysql/azuresql
+            sqlserver: mysql/sqlserver
+            azuremysql: mysql/azuremysql
+    access:
+        logo: Access.png
+        pages:
+            azuresql: access/azuresql
+            sqlserver: access/sqlserver
+    sybase:
+        logo: SAP-ASE.png
+        pages:
+            azuresql: sybase/azuresql
+            sqlserver: sybase/sqlserver
+    postgresql:
+        logo: PostgreSQL.png
+        pages:
+            azurepostgresql: postgresql\azurepostgresql
+    mongo:
+        logo: MongoDB.png
+        pages:
+            cosmos: mongo\cosmos
+    azuretable:
+        logo: Azure-Table-Storage.png
+        pages:
+            cosmos: azuretable\cosmos
+            
+commonChoices:
+    sql->sql:
+        text: SQL Server => Azure SQL Database
+        url: sqlserver/azuresql
       
 resources:
   sqlserver-csharp:
@@ -46,34 +108,6 @@ resources:
     text: SQL Server + C# on Channel 9
     link: https://channel9.msdn.com/Events/Connect/2016/151
     condition: C#
-  sqlserver-java:
-    pre: Check out what's new with
-    text: SQL Server + Java on Channel 9
-    link: https://channel9.msdn.com/Events/Connect/2016/152
-    condition: Java
-  sqlserver-node:
-    pre: Check out what's new with
-    text: SQL Server + Node.js on Channel 9
-    link: https://channel9.msdn.com/Events/Connect/2016/160
-    condition: Node.js
-  sqlserver-php:
-    pre: Check out what's new with
-    text: SQL Server + PHP on Channel 9
-    link: https://channel9.msdn.com/Events/Connect/2016/182
-    condition: PHP
-  sqlserver-py:
-    pre: Check out what's new with
-    text: SQL Server + Python on Channel 9
-    link: https://channel9.msdn.com/Events/Connect/2016/189
-    condition: Python
-  github:
-    pre: Browse more SQL Server code samples (In-Memory, Dynamic Data Masking, R, etc.) on our
-    text: GitHub repository
-    link: https://github.com/Microsoft/sql-server-samples/tree/master/samples/
-  linux:
-    pre: Learn more about
-    text: SQL Server on Linux
-    link: https://channel9.msdn.com/Events/Connect/2016/101
   connect:
     pre: Watch more
     text: Connect(); event videos
