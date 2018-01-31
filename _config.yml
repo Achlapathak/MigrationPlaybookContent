@@ -80,9 +80,18 @@ menu:
             cosmos: azuretable\cosmos
             
 commonChoices:
-    sql->sql:
+    sql-azuresql:
         text: SQL Server => Azure SQL Database
-        url: sqlserver/azuresql
+        link: sqlserver/azuresql
+    sql-sqlserver:
+        text: SQL Server => SQL Server
+        link: sqlserver/sqlserver
+    oracle-sql:
+        text: Oracle => SQL Server
+        link: oracle/sqlserver
+    db2-sql:
+        text: DB2 => Azure SQL Database
+        link: db2/azuresql
       
 resources:
   sqlserver-csharp:

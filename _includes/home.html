@@ -4,22 +4,19 @@
         Learn about how to use <a href="http://aka.ms/mlsqldev"> SQL Server Machine Learning Services with Python and R</a>
     </h3>
 
+    {% if site.commonChoices %}
     <div class="sql-home-items">
+        {% for option in site.commonChoices %}
+        {% assign item = option[1] %}
         <div class="sql-home-item">
-            <img class="sql-home-icon" src="http://sqlchoice.azurewebsites.net/en-us/sql-server/developer-get-started/assets/images/r-logo.png" alt="">
-            <div class="sql-home-itemflex">
-                <a class="sql-home-link sql-home-link--spaced" href="https://microsoft.github.io/sql-ml-tutorials/R/rentalprediction">Build a Predictive model</a>
+           <div class="sql-home-itemflex">
+                <a class="sql-home-link sql-home-link--spaced" href="{{item.link}}">{{item.text}}</a>
             </div>
         </div>
 
-        <div class="sql-home-item">
-            <img class="sql-home-icon" src="http://sqlchoice.azurewebsites.net/en-us/sql-server/developer-get-started/assets/images/menu/python.png" alt="">
-            <div class="sql-home-itemflex">
-                <a class="sql-home-link sql-home-link--spaced" href="https://microsoft.github.io/sql-ml-tutorials/python/rentalprediction/">Build a Predictive model</a>
-                <i class="sql-new"></i>
-            </div>
-        </div>
+        {% endfor %}
     </div>
+    {% endif %}
 
     <footer class="sql-home-footer">
         <div class="sql-home-items">
