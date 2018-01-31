@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 #baseurl: /en-us/sql-server/developer-get-started
 
 disqus:
-  shortname: sqlchoice
+    shortname: sqlchoice
 
 gitter: https://gitter.im/Microsoft/MigrationPlaybook
 
@@ -94,19 +94,40 @@ commonChoices:
         link: db2/azuresql
       
 resources:
-  sqlserver-csharp:
-    pre: Check out what's new with
-    text: SQL Server + C# on Channel 9
-    link: https://channel9.msdn.com/Events/Connect/2016/151
-    condition: C#
-  connect:
-    pre: Watch more
-    text: Connect(); event videos
-    link: https://channel9.msdn.com/Events/Connect/2016
-  labs:
-    pre: Browse our
-    text: Virtual Labs Gallery
-    link: https://technet.microsoft.com/en-us/virtuallabs
+    sqlserver-csharp:
+        pre: Check out what's new with
+        text: SQL Server + C# on Channel 9
+        link: https://channel9.msdn.com/Events/Connect/2016/151
+        condition: C#
+    connect:
+        pre: Watch more
+        text: Connect(); event videos
+        link: https://channel9.msdn.com/Events/Connect/2016
+    labs:
+        pre: Browse our
+        text: Virtual Labs Gallery
+        link: https://technet.microsoft.com/en-us/virtuallabs
+
+case-studies:
+    Floatel:
+        title: Floatel International
+	    text: Maritime Firm Improves Insight and Efficiency with Microsoft Solution
+	    url: https://customers.microsoft.com/en-us/story/maritime-firm-improves-insight-and-efficiency-with-mic
+	    logoUrl: https://mpbdevcontent.azureedge.net/Images/FloatelLogo.png
+	    logoAltText: Floatel
+    Infosys:
+        title: Infosys
+	    text: Infosys migrates to SQL server 2016
+	    url: https://customers.microsoft.com/en-us/story/infosyssql,
+	    logoUrl: https://mpbdevcontent.azureedge.net/Images/InfosysLogo.png,
+	    logoAltText: Infosys
+    HollandAmerica:
+        title: Holland America
+	    text: "Cruise Line Upgrades BI to Empower Users, Improve Guest Experience, Reduce IT Work"
+	    url: https://customers.microsoft.com/en-us/story/cruise-line-upgrades-bi-to-empower-users-improve-guest
+	    logoUrl: https://mpbdevcontent.azureedge.net/Images/HollandAmericaLogo.png
+	    logoAltText: Holland America
+
 
 # Build settings
 markdown: kramdown
