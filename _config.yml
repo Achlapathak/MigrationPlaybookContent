@@ -153,7 +153,6 @@ partners:
 	    url: https://datometry.com/products/database-migration/
 	    logoUrl: https://mpbdevcontent.azureedge.net/Images/Datometry_logo.png
 	    logoAltText: Datometry Hyper-Q
-
     Morphis:
     	title: Morphis Transformer,
 	    text: Morphis helps with tranforming an application into a new language; or modernize into a multi-tier architecture.,
@@ -162,7 +161,7 @@ partners:
 	    logoAltText: Morphis Transformer
     Corent:
         title: Corent
-	    text: "Corent's SurPaaS® is a fully integrated platform to automatically Analyze, Cloudify, and  SaaSify -  any software application, without any programming."
+	    text: "Corent's SurPaaSÂ® is a fully integrated platform to automatically Analyze, Cloudify, and  SaaSify -  any software application, without any programming."
 	    url: https://www.corenttech.com/SurPaaS-Migration-As-A-Service.html
 	    logoUrl: https://mpbdevcontent.azureedge.net/Images/corent-logo.png
 	    logoAltText: Corent
