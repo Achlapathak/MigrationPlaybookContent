@@ -27,6 +27,14 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        align-content:flex-start;
+        &.case-studies {
+            width: 33%;
+        }
+
+        &.partners {
+            width: 66%;
+        }
     }
 
     &-item {
@@ -42,6 +50,7 @@
         justify-content: space-around;
         margin-left: $margin;
         margin-right: $margin;
+        margin-bottom: 5px;
         position: relative;
         width: 40% - 2 * $margin;
 
@@ -49,6 +58,10 @@
             flex-direction: column;
             height: 15rem;
             width: 40% - 2 * $margin;
+
+            .case-studies & {
+                width: 68%;
+            }
         }
 
         .sql-new {
@@ -96,6 +109,8 @@
 
         &--spaced {
             $margin: 1rem;
+            margin-top: .4 * $margin;
+            margin-bottom: $margin * .4;
             margin-left: $margin;
             margin-right: $margin;
         }
@@ -111,6 +126,7 @@
         padding-top: $padding;
         position: relative;
         z-index: 1;
+        display: flex;
 
         &:before {
             background-color: $color-background-bright;

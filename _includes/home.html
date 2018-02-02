@@ -1,10 +1,6 @@
 <div class="sql-home">
 
-    <h3 class="sql-home-title">
-        Learn about how to use <a href="http://aka.ms/mlsqldev"> SQL Server Machine Learning Services with Python and R</a>
-    </h3>
-
-    {% if site.commonChoices %}
+      {% if site.commonChoices %}
     <div class="sql-home-items">
         {% for option in site.commonChoices %}
         {% assign item = option[1] %}
@@ -19,15 +15,30 @@
     {% endif %}
 
     <footer class="sql-home-footer">
+        {% if site.case-studies %}
+        <div class="sql-home-items case-studies">
+            <h2 class="sql-home-title">
+                <span aria-hidden="true">Case Studies</span>
+            </h2>
+            {% for partner in site.case-studies %}
+            {% assign item = partner[1] %}
+            <div class="sql-home-item sql-home-item--column">
+                <a href="{{item.url}}" target="_blank">
+                    <img class="sql-home-icon sql-home-icon--block"
+                         src="{{item.logoUrl}}" alt="{{item.logoAltText}}">
+                </a>
+                <span class="sql-home-text">{{item.text}}</span>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+
         {% if site.data.partners %}
-        <div class="sql-home-items">
-            <!--
-            title: Ispirer
-            text: Ispirer offers migration tools and services for Microsoft SQL Server and others.
-            url: http://www.ispirer.com/solutions/migration-to-the-microsoft-technology-stack
-            logoUrl: https://mpbdevcontent.azureedge.net/Images/Ispirer_logo.png
-            logoAltText: Ispirer Migration and Modernization Toolkit (MnMTK) 2015
-            -->
+        <div class="sql-home-items partners">
+
+            <h2 class="sql-home-title">
+                <span aria-hidden="true">Partners</span>
+            </h2>
             {% for partner in site.data.partners %}
             {% assign item = partner[1] %}
             <div class="sql-home-item sql-home-item--column">
@@ -38,8 +49,8 @@
                 <span class="sql-home-text">{{item.text}}</span>
             </div>
             {% endfor %}
-            {% endif %}
         </div>
+        {% endif %}
     </footer>
 
     <!-- TODO: LOCALIZE! LOCALIZE! >:( -->
