@@ -129,7 +129,7 @@ To use Azure DMS to run a migration project, perform the following steps.
     
       **Data Consistency:** DMS verifies consistency between source and target data tables by comparing checksum values. If there is a data mismatch, the migration report will provide details on which tables/objects have the mismatch.
     
-      **Query Correctness and Performance:** DMS collects most frequently run ‘SELECT’ queries from your source and run them on your target. We consider this as a good sample of your workload to validate correctness (query pass rate) and performance (execution time). You can see which queries were run and how they performed in the migration report.
+      **Query Correctness and Performance:** DMS collects most frequently run â€˜SELECTâ€™ queries from your source and run them on your target. We consider this as a good sample of your workload to validate correctness (query pass rate) and performance (execution time). You can see which queries were run and how they performed in the migration report.
         
     f. Select **Save**, and then review the summary to ensure that the source and target details match what you previously specified.
     
@@ -145,4 +145,4 @@ To use Azure DMS to run a migration project, perform the following steps.
     
     ![Download Report](https://mpbdevcontent.azureedge.net/Images/DMSDownloadReport.png) 
     
-    c. Verify the target Azure SQL Database after the migration is complete.    
+    c. Verify the target Azure SQL Database after the migration is complete.
