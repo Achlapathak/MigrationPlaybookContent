@@ -20,16 +20,16 @@
 
     <footer class="sql-home-footer">
         {% if site.data.partners %}
-        <!--
-        title: Ispirer
-        text: Ispirer offers migration tools and services for Microsoft SQL Server and others.
-        url: http://www.ispirer.com/solutions/migration-to-the-microsoft-technology-stack
-        logoUrl: https://mpbdevcontent.azureedge.net/Images/Ispirer_logo.png
-        logoAltText: Ispirer Migration and Modernization Toolkit (MnMTK) 2015
-        -->
-        {% for partner in site.data.partners %}
-        {% assign item = partner[1] %}
         <div class="sql-home-items">
+            <!--
+            title: Ispirer
+            text: Ispirer offers migration tools and services for Microsoft SQL Server and others.
+            url: http://www.ispirer.com/solutions/migration-to-the-microsoft-technology-stack
+            logoUrl: https://mpbdevcontent.azureedge.net/Images/Ispirer_logo.png
+            logoAltText: Ispirer Migration and Modernization Toolkit (MnMTK) 2015
+            -->
+            {% for partner in site.data.partners %}
+            {% assign item = partner[1] %}
             <div class="sql-home-item sql-home-item--column">
                 <a href="{{item.url}}" target="_blank">
                     <img class="sql-home-icon sql-home-icon--block"
@@ -37,12 +37,12 @@
                 </a>
                 <span class="sql-home-text">{{item.text}}</span>
             </div>
+            {% endfor %}
+            {% endif %}
         </div>
-        {% endfor %}
-        {% endif %}
     </footer>
 
-<!-- TODO: LOCALIZE! LOCALIZE! >:( -->
+    <!-- TODO: LOCALIZE! LOCALIZE! >:( -->
     <span class="sql-home-message">
         Don't see a programming language you were looking for? Join the conversation on <a class="sql-home-link sql-home-link--underline" href="{{site.gitter}}" target="_blank">Gitter</a>.
         <br>
