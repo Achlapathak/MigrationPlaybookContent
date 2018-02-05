@@ -1,0 +1,86 @@
+﻿
+@mixin clearfix() {
+    zoom: 1;
+
+    &:before, &:after {
+        content: "";
+        display: table;
+    }
+
+    &:after {
+        clear: both;
+    }
+}
+@import '../base/variables';
+
+#case-studies-and-partners {
+    @media(max-width:$media-screen-s) {
+        padding: 20px 2%;
+    }
+
+    .similar-playbook-section {
+        @include clearfix;
+        /*It's inside something else that's going to provide quite enough whitespace.*/
+        padding: 0;
+
+        .c-heading-4 {
+            padding-top: 12px;
+        }
+
+        a .c-heading-4 {
+            font-weight: 600;
+            font-size: 18px;
+            color: $color-secondary;
+        }
+
+        .similar-case {
+            section {
+                margin-top: 20px;
+
+                > div {
+                    color: $color-background-dark;
+
+                    @media(min-width:@VP2) {
+                        max-width: 90%;
+                    }
+
+                    .partner-image {
+                        background-color: @white;
+
+                        @media(min-width:@VP2) {
+                            height: 130px;
+                            border: 1px solid $color-foreground-bright;
+                            position: relative;
+
+                            img {
+                                position: absolute;
+                                top: calc(50%);
+                                left: calc(50%);
+                                -moz-transform: translate(-50%, -50%);
+                                -ms-transform: translate(-50%, -50%);
+                                -o-transform: translate(-50%, -50%);
+                                -webkit-transform: translate(-50%, -50%);
+                                transform: translate(-50%, -50%);
+                                max-width: 80%;
+                                max-height: 80%;
+                            }
+                        }
+                    }
+
+
+
+                    p {
+                        padding: 0;
+
+                        @media(min-width:@VP2) {
+                            height: 6em;
+                            overflow: hidden;
+                        }
+
+                        font-weight: normal;
+                    }
+                }
+            }
+        }
+    }
+}

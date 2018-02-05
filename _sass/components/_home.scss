@@ -8,6 +8,7 @@
 
     &-title {
         font-weight: $font-weight-normal;
+        font-size: 18px;
         padding-bottom: 2rem;
         text-align: center;
         width: 100%;
@@ -27,7 +28,8 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        align-content:flex-start;
+        align-content: flex-start;
+
         &.case-studies {
             width: 33%;
         }
@@ -56,11 +58,12 @@
 
         &--column {
             flex-direction: column;
-            height: 15rem;
-            width: 40% - 2 * $margin;
+            /*height: 15rem;*/
+            $single-wide: 45% - 2 * $margin;
+            width: $single-wide;
 
             .case-studies & {
-                width: 68%;
+                width: 2 * $single-wide;
             }
         }
 
@@ -148,6 +151,7 @@
     &-text {
         display: block;
         padding: 1rem;
+        padding-top: 0;
         text-align: center;
         width: 100%;
     }
