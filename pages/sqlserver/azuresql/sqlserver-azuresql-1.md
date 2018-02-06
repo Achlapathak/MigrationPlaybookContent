@@ -7,11 +7,14 @@ redirect_from:
   - /sqlserver/azuresql/step/
   - /sqlserver/azuresql/step/1
 ---
-## Step1. Assess
+
+> In this step, we will download and install the Data Migration Assistant, and apply it to prepare your DB for migration.
+
+## 1. Assess
 
 When the data sources have been identified, the next step is to assess on-premises SQL Server instance(s) migrating to Azure SQL database(s) to understand the gaps between the source and target instances. Use the Data Migration Assistant (DMA) to assess your source database before migrating to Azure SQL Database.
 
-### Steps
+## 2. Apply DMA
 
 To use DMA to create an assessment, perform the following steps.
 
