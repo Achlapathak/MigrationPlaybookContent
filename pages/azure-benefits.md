@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: page
 permalink: /azure-benefits/
+title: Benefits of Migrating to Azure
 ---
 
 ## 1. Rationale for Migrating
