@@ -5,6 +5,7 @@ title: Benefits of Migrating to Azure
 ---
 
 ## 1. Rationale for Migrating
+{: .sql-page_steps-title }
 Azure SQL Database is a relational database service hosted in the Microsoft Cloud that is based on the market-leading Microsoft SQL Server engine. Azure SQL Database is capable of handling mission-critical workloads and delivers predictable performance at multiple service levels, dynamic scalability with no downtime, built-in business continuity, and data protection — all with near-zero administration.
 
 These capabilities allow you to focus on rapid app development and accelerating your time-to-market, rather than allocating precious time and resources to managing virtual machines and infrastructure. Based on the [SQL Server](https://msdn.microsoft.com/library/bb545450.aspx) engine, Azure SQL Database supports existing SQL Server tools, libraries, and APIs. This makes it is easy for you to develop new solutions, to move your existing SQL Server solutions, and to extend your existing SQL Server solutions to the Microsoft Cloud without having to learn new skills.
