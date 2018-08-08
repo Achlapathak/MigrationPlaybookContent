@@ -149,7 +149,8 @@
   ],
   "commonChoices": [{
       "text": "SQL Server &rarr; Azure SQL Database",
-      "link": "/scenario/sql-to-azuresqldb"
+      "link": "/scenario/WS2016 on-prem to WS2019
+"
     },
     {
       "text": "SQL Server &rarr; SQL Server",
