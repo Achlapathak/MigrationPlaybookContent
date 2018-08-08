@@ -3,7 +3,7 @@
       "title": "SQL Server",
       "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/sql-server.png",
       "pages": [{
-          "name": "Azure SQL Database",
+          "name": "Azure SQL DB",
           "longname": "Azure SQL Database",
           "URL": "/scenario/sql-to-azuresqldb"
         },
