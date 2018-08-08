@@ -148,20 +148,20 @@
     }
   ],
   "commonChoices": [{
-      "text": "SQL Server &rarr; Azure SQL Database",
+      "text": "Windows Server 2016 on-prem &rarr; Windows Server 2019 on-prem",
       "link": "/scenario/WS2016 on-prem to WS2019
 "
     },
     {
-      "text": "SQL Server &rarr; SQL Server",
+      "text": "Windows Server 2012 on-prem &rarr; Windows Server 2019 on-prem",
       "link": "/scenario/sql-to-sqlserver"
     },
     {
-      "text": "Oracle &rarr; SQL Server",
+      "text": "Windows Server 2012 R2 on-prem &rarr; Windows Server 2019 on-prem",
       "link": "/scenario/oracle-to-sqlserver"
     },
     {
-      "text": "DB2 &rarr; Azure SQL Database",
+      "text": "Windows Server 2008 on-prem &rarr; Windows Server 2019 on Azure",
       "link": "/scenario/db2-to-azuresqldb"
     }
   ],
