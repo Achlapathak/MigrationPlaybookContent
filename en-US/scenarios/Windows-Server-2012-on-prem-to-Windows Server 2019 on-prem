@@ -1,7 +1,3 @@
 
 
-	"displayname": "Content for Windows 2012",
-	"emailmessage": "Check out the process for migrating from Access to Azure SQL Database here:",
-	"description": "The Azure SQL Database is capable of handling mission-critical workloads predictably and efficiently, aiding the transition process from other databases, like Access.",
-	"rationale": "SqlDbRationaleStatic",
-	"overview": "DbMigrationProcessOverviewStatic"
+	Contents for Windows 2012
