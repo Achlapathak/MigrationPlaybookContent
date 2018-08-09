@@ -85,7 +85,7 @@
     },
     {
       "text": "Windows Server 2008 on-prem &rarr; Windows Server 2019 on Azure",
-      "link": "/scenario/db2-to-azuresqldb"
+      "link": "/scenario/WS2012R2-on-prem-to-WS2019Azure"
     }
   ],
    "otherTools": [
