@@ -77,7 +77,7 @@
     },
     {
       "text": "Windows Server 2012 on-prem &rarr; Windows Server 2019 on-prem",
-      "link": "/scenario/sql-to-sqlserver"
+      "link": "/scenario/WS2012-on-prem-to-WS2019"
     },
     {
       "text": "Windows Server 2012 R2 on-prem &rarr; Windows Server 2019 on-prem",
