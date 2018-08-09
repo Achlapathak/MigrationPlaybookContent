@@ -124,7 +124,7 @@
   ],
   "commonChoices": [
     {
-      "text": "Windows Server 2016 on-prem &rarr; Windows Server 2019 on-prem",
+      "text": "WS2016-on-prem &rarr; Windows Server 2019",
       "link": "/scenario/WS2016-on-prem-to-WS2019"
     },
     {
