@@ -1,8 +1,10 @@
 {
-  "menu": [{
-      "title": "Windows Server 2012",
+  "menu": [
+    {
+      "title": "Windows Server 2012R2",
       "logo": "https://www.educ8yourself.com/wp-content/uploads/2017/06/logo_winserver2012R2.png",
-      "pages": [{
+      "pages": [
+        {
           "name": "Achla's Database",
           "longname": "Achla's Database",
           "URL": "/scenario/sql-to-azuresqldb"
@@ -30,9 +32,10 @@
       ]
     },
     {
-      "title": "Oracle",
-      "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/oracle.png",
-      "pages": [{
+      "title": "Windows Server 2012",
+      "logo": "https://johntaurins.files.wordpress.com/2015/06/windows-server-2012-logo1.jpg?w=256",
+      "pages": [
+        {
           "name": "Azure SQL Database",
           "longname": "Azure SQL Database",
           "URL": "/scenario/oracle-to-azuresqldb"
@@ -55,9 +58,58 @@
       ]
     },
     {
-      "title": "DB2",
-      "logo": "https://mpbdevcontent.azureedge.net/Images/Logos/DB2.png",
-      "pages": [{
+      "title": "Windows Server 2016",
+      "logo": "https://static.spiceworks.com/shared/post/0022/6015/windows-server-2016.png",
+      "pages": [
+        {
+          "name": "Azure SQL Database",
+          "longname": "Azure SQL Database",
+          "URL": "/scenario/db2-to-azuresqldb"
+        },
+        {
+          "name": "SQL Server",
+          "longname": "SQL Server",
+          "URL": "/scenario/db2-to-sqlserver"
+        }
+      ]
+    },
+    {
+      "title": "Windows Server 2008",
+      "logo": "https://vignette.wikia.nocookie.net/logopedia/images/d/dc/Logo_windows_server_2008.jpg",
+      "pages": [
+        {
+          "name": "Azure SQL Database",
+          "longname": "Azure SQL Database",
+          "URL": "/scenario/db2-to-azuresqldb"
+        },
+        {
+          "name": "SQL Server",
+          "longname": "SQL Server",
+          "URL": "/scenario/db2-to-sqlserver"
+        }
+      ]
+    },
+    {
+      "title": "Windows Server 2008R2",
+      "logo": "https://vignette.wikia.nocookie.net/logopedia/images/9/9d/Windows_Server_2008_R2_logo.svg",
+      "pages": [
+        {
+          "name": "Azure SQL Database",
+          "longname": "Azure SQL Database",
+          "URL": "/scenario/db2-to-azuresqldb"
+        },
+        {
+          "name": "SQL Server",
+          "longname": "SQL Server",
+          "URL": "/scenario/db2-to-sqlserver"
+        }
+      ]
+    },
+    {
+      "title": "Windows Server 2003",
+      "logo": "https://vignette.wikia.nocookie.net/logopedia/images/f/f6/Windows_Server_2003_logo.png",
+      "pages": [
+        {
           "name": "Azure SQL Database",
           "longname": "Azure SQL Database",
           "URL": "/scenario/db2-to-azuresqldb"
@@ -70,10 +122,10 @@
       ]
     }
   ],
-  "commonChoices": [{
+  "commonChoices": [
+    {
       "text": "Windows Server 2016 on-prem &rarr; Windows Server 2019 on-prem",
-      "link": "/scenario/WS2016-on-prem-to-WS2019
-"
+      "link": "/scenario/WS2016-on-prem-to-WS2019"
     },
     {
       "text": "Windows Server 2012 on-prem &rarr; Windows Server 2019 on-prem",
@@ -88,7 +140,7 @@
       "link": "/scenario/db2-to-azuresqldb"
     }
   ],
-   "otherTools": [
+  "otherTools": [
     {
       "text": "Azure Database Migration Service (DMS)",
       "url": "https://aka.ms/dms"
@@ -106,7 +158,8 @@
       "url": "https://aka.ms/dea-tool"
     }
   ],
-  "caseStudies": [{
+  "caseStudies": [
+    {
       "filelocation": "Floatel"
     },
     {
@@ -125,7 +178,8 @@
       "filelocation": "Vipps"
     }
   ],
-  "partners": [{
+  "partners": [
+    {
       "filelocation": "Attunity"
     },
     {
