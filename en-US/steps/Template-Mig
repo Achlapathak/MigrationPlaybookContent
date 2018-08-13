@@ -1,4 +1,4 @@
-<!-- Pre-Migrating Steps -->
+<!-- Migrating Steps -->
 ## Converting a current evaluation version to a current retail version
 
 You can convert the evaluation version of Windows Server 2016 Standard to either Windows Server 2016 Standard (retail) or Datacenter (retail). Similarly, you can convert the evaluation version of Windows Server 2016 Datacenter to the retail version.
