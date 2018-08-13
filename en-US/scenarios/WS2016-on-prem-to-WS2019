@@ -8,27 +8,15 @@
 	"steps": [{
 			"name": "Pre-migration",
 			"items": [{
-					"filelocation": "AccessToSqlDb-Pre-Mig",
+					"filelocation": "Template-Pre-Mig",
 					"actions": []
-				},
-				{
-					"filelocation": "AccessToSqlDbAssessment",
-					"actions": []
-				}
+				}				
 			]
 		},
 		{
 			"name": "Migration",
 			"items": [{
 					"filelocation": "Template-Mig",
-					"actions": []
-				},
-				{
-					"filelocation": "AccessToSqlDbMigration",
-					"actions": []
-				},
-				{
-					"filelocation": "AccessToSqlDbDataSyncAndCutover",
 					"actions": []
 				}
 			]
@@ -37,18 +25,6 @@
 			"name": "Post-migration",
 			"items": [{
 					"filelocation": "Template-Post-Mig",
-					"actions": []
-				},
-				{
-					"filelocation": "RemediateApps",
-					"actions": []
-				},
-				{
-					"filelocation": "PerformTests",
-					"actions": []
-				},
-				{
-					"filelocation": "SqlDbOptimization",
 					"actions": []
 				}
 			]
