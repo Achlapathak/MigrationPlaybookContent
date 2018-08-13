@@ -124,15 +124,15 @@
   ],
   "commonChoices": [
     {
-      "text": "WS2016-on-prem &rarr; WS2019",
+      "text": "WS2016 &rarr; WS2019",
       "link": "/scenario/WS2016-on-prem-to-WS2019"
     },
     {
-      "text": "WS2012 on-prem &rarr; WS2019 on-prem",
+      "text": "WS2012 &rarr; WS2019 on-prem",
       "link": "/scenario/WS2012-on-prem-to-WS2019"
     },
     {
-      "text": "WS2012 R2 on-prem &rarr; WS2019 on-prem",
+      "text": "WS2012R2 on-prem &rarr; WS2019 on-prem",
       "link": "/scenario/WS2012R2-on-prem-to-WS2019"
     },
     {
