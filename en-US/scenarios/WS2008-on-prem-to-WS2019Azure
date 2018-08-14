@@ -53,6 +53,16 @@
 				}
 			]
 		}
+		{
+			"name": "Azure-Specific Considerations",
+			"items": [{
+					"filelocation": "AzureMigration",
+					"actions": []
+				}
+				
+			]
+		}
+		
 	],
 	"casestudies": [{
 			"filelocation": "Sumitomo"

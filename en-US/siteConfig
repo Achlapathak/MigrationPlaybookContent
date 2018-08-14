@@ -10,9 +10,9 @@
           "URL": "/scenario/sql-to-azuresqldb"
         },
         {
-          "name": "SQL Server (upgrade)",
+          "name": "Windows Server 2019 Azure",
           "longname": "SQL Server (on-premises)",
-          "URL": "/scenario/sql-to-sqlserver"
+          "URL": "/scenario/WS2008-on-prem-to-WS2019Azure"
         },
         {
           "name": "Azure SQL Database MI",
