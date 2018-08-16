@@ -1,33 +1,34 @@
 {
   "menu": [
     {
+      "title": "Windows Server 2016",
+      "logo": "https://static.spiceworks.com/shared/post/0022/6015/windows-server-2016.png",
+      "pages": [
+        {
+          "name": "WS 2019 On-Prem",
+          "longname": "Windows Server 2019 on-premises",
+          "URL": "/scenario/db2-to-azuresqldb"
+        },
+        {
+          "name": "WS 2019 + Azure",
+          "longname": "SQL Server",
+          "URL": "/scenario/db2-to-sqlserver"
+        }
+      ]
+    },
+    {
       "title": "Windows Server 2012R2",
       "logo": "https://www.educ8yourself.com/wp-content/uploads/2017/06/logo_winserver2012R2.png",
       "pages": [
         {
-          "name": "Achla's Database",
-          "longname": "Achla's Database",
-          "URL": "/scenario/sql-to-azuresqldb"
+          "name": "WS 2019 On-Prem",
+          "longname": "Windows Server 2019 on-premises",
+          "URL": "/scenario/db2-to-azuresqldb"
         },
         {
-          "name": "Windows Server 2019 Azure",
-          "longname": "SQL Server (on-premises)",
-          "URL": "/scenario/WS2008-on-prem-to-WS2019Azure"
-        },
-        {
-          "name": "Azure SQL Database MI",
-          "longname": "Azure SQL Database Managed Instance",
-          "URL": "/scenario/sql-to-azuresqldbmi"
-        },
-        {
-          "name": "SQL Server on Azure VMs",
-          "longname": "SQL Server on Azure VMs",
-          "URL": "/scenario/sql-to-sqlvm"
-        },
-        {
-          "name": "SQL Data Warehouse",
-          "longname": "Azure Data Warehouse",
-          "URL": "/scenario/sql-to-sqldw"
+          "name": "WS 2019 + Azure",
+          "longname": "SQL Server",
+          "URL": "/scenario/db2-to-sqlserver"
         }
       ]
     },
@@ -36,57 +37,16 @@
       "logo": "https://johntaurins.files.wordpress.com/2015/06/windows-server-2012-logo1.jpg?w=256",
       "pages": [
         {
-          "name": "Azure SQL Database",
-          "longname": "Azure SQL Database",
-          "URL": "/scenario/oracle-to-azuresqldb"
-        },
-        {
-          "name": "SQL Server",
-          "longname": "SQL Server",
-          "URL": "/scenario/oracle-to-sqlserver"
-        },
-        {
-          "name": "Azure DB for PostgreSQL",
-          "longname": "Azure Database for PostgreSQL",
-          "URL": "/scenario/oracle-to-azurepostgresql"
-        },
-        {
-          "name": "SQL Data Warehouse",
-          "longname": "SQL Data Warehouse",
-          "URL": "/scenario/oracle-to-sqldw"
-        }
-      ]
-    },
-    {
-      "title": "Windows Server 2016",
-      "logo": "https://static.spiceworks.com/shared/post/0022/6015/windows-server-2016.png",
-      "pages": [
-        {
-          "name": "Azure SQL Database",
-          "longname": "Azure SQL Database",
+          "name": "WS 2019 On-Prem",
+          "longname": "Windows Server 2019 on-premises",
           "URL": "/scenario/db2-to-azuresqldb"
         },
         {
-          "name": "SQL Server",
+          "name": "WS 2019 + Azure",
           "longname": "SQL Server",
           "URL": "/scenario/db2-to-sqlserver"
         }
-      ]
-    },
-    {
-      "title": "Windows Server 2008",
-      "logo": "https://vignette.wikia.nocookie.net/logopedia/images/d/dc/Logo_windows_server_2008.jpg",
-      "pages": [
-        {
-          "name": "Azure SQL Database",
-          "longname": "Azure SQL Database",
-          "URL": "/scenario/db2-to-azuresqldb"
-        },
-        {
-          "name": "SQL Server",
-          "longname": "SQL Server",
-          "URL": "/scenario/db2-to-sqlserver"
-        }
+
       ]
     },
     {
@@ -94,28 +54,12 @@
       "logo": "https://vignette.wikia.nocookie.net/logopedia/images/9/9d/Windows_Server_2008_R2_logo.svg",
       "pages": [
         {
-          "name": "Azure SQL Database",
-          "longname": "Azure SQL Database",
+          "name": "WS 2019 On-Prem",
+          "longname": "Windows Server 2019 on-premises",
           "URL": "/scenario/db2-to-azuresqldb"
         },
         {
-          "name": "SQL Server",
-          "longname": "SQL Server",
-          "URL": "/scenario/db2-to-sqlserver"
-        }
-      ]
-    },
-    {
-      "title": "Windows Server 2003",
-      "logo": "https://vignette.wikia.nocookie.net/logopedia/images/f/f6/Windows_Server_2003_logo.png",
-      "pages": [
-        {
-          "name": "Azure SQL Database",
-          "longname": "Azure SQL Database",
-          "URL": "/scenario/db2-to-azuresqldb"
-        },
-        {
-          "name": "SQL Server",
+          "name": "WS 2019 + Azure",
           "longname": "SQL Server",
           "URL": "/scenario/db2-to-sqlserver"
         }
