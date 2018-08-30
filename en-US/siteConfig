@@ -1,33 +1,17 @@
 {
   "menu": [
     {
-      "title": "Windows Server 2016",
-      "logo": "https://static.spiceworks.com/shared/post/0022/6015/windows-server-2016.png",
+      "title": "Windows Server 2008R2",
+      "logo": "https://vignette.wikia.nocookie.net/logopedia/images/9/9d/Windows_Server_2008_R2_logo.svg",
       "pages": [
         {
-          "name": "WS 2016 On-Prem",
-          "longname": "Windows Server 2016 on-premises",
+          "name": "WS 2019 On-Prem",
+          "longname": "Windows Server 2008R2 on-premises",
           "URL": "/scenario/db2-to-azuresqldb"
         },
         {
-          "name": "WS 2016 in Azure",
-          "longname": "WS 2016 in Azure",
-          "URL": "/scenario/db2-to-sqlserver"
-        }
-      ]
-    },
-    {
-      "title": "Windows Server 2012R2",
-      "logo": "https://www.educ8yourself.com/wp-content/uploads/2017/06/logo_winserver2012R2.png",
-      "pages": [
-        {
-          "name": "WS 2012R2 On-Prem",
-          "longname": "WS 2012R2 On-Prem",
-          "URL": "/scenario/db2-to-azuresqldb"
-        },
-        {
-          "name": "WS 2012R2 in Azure",
-          "longname": "WS 2012R2 in Azure",
+          "name": "WS 2019 in Azure",
+          "longname": "WS 2008R2 in Azure ",
           "URL": "/scenario/db2-to-sqlserver"
         }
       ]
@@ -37,30 +21,45 @@
       "logo": "https://johntaurins.files.wordpress.com/2015/06/windows-server-2012-logo1.jpg?w=256",
       "pages": [
         {
-          "name": "WS 2012 On-Prem",
+          "name": "WS 2019 On-Prem",
           "longname": "Windows Server 2012 on-premises",
           "URL": "/scenario/db2-to-azuresqldb"
         },
         {
-          "name": "WS 2012 in Azure",
+          "name": "WS 2019 in Azure",
           "longname": "WS 2012 in Azure",
           "URL": "/scenario/db2-to-sqlserver"
         }
-
       ]
     },
     {
-      "title": "Windows Server 2008R2",
-      "logo": "https://vignette.wikia.nocookie.net/logopedia/images/9/9d/Windows_Server_2008_R2_logo.svg",
+      "title": "Windows Server 2012R2",
+      "logo": "https://www.educ8yourself.com/wp-content/uploads/2017/06/logo_winserver2012R2.png",
       "pages": [
         {
-          "name": "WS 2008R2 On-Prem",
-          "longname": "Windows Server 2008R2 on-premises",
+          "name": "WS 2019 On-Prem",
+          "longname": "WS 2019 On-Prem",
           "URL": "/scenario/db2-to-azuresqldb"
         },
         {
-          "name": "WS 2008R2 in Azure",
-          "longname": "WS 2008R2 in Azure ",
+          "name": "WS 2019 in Azure",
+          "longname": "WS 2019 in Azure",
+          "URL": "/scenario/db2-to-sqlserver"
+        }
+      ]
+    },
+    {
+      "title": "Windows Server 2016",
+      "logo": "https://static.spiceworks.com/shared/post/0022/6015/windows-server-2016.png",
+      "pages": [
+        {
+          "name": "WS 2019 On-Prem",
+          "longname": "Windows Server 2019 on-premises",
+          "URL": "/scenario/db2-to-azuresqldb"
+        },
+        {
+          "name": "WS 2019 in Azure",
+          "longname": "WS 2019 in Azure",
           "URL": "/scenario/db2-to-sqlserver"
         }
       ]
