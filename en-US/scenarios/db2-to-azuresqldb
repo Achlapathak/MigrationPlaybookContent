@@ -54,22 +54,7 @@
 		}
 	],
 	"casestudies": [
-
 	],
-	"partners": [{
-			"filelocation": "DBBest"
-		},
-		{
-			"filelocation": "DataSunrise"
-		},
-		{
-			"filelocation": "QuerySurge"
-		},
-		{
-			"filelocation": "Infosys"
-		},
-		{
-			"filelocation": "ScalabilityExperts"
-		}
+	"partners": [
 	]
 }
