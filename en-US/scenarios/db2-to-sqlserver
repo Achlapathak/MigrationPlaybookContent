@@ -5,7 +5,7 @@
 	"rationale": "Sql2017RationaleStatic",
 	"overview": "DbMigrationProcessOverviewStatic",
 	"steps": [{
-			"name": "Pre-Migration",
+			"name": "Pre-upgrade",
 			"items": [{
 					"filelocation": "Db2ToSql-Pre-Mig",
 					"actions": []
@@ -21,7 +21,7 @@
 			]
 		},
 		{
-			"name": "Migration",
+			"name": "Upgrade",
 			"items": [{
 					"filelocation": "Template-Mig",
 					"actions": []
@@ -37,7 +37,7 @@
 			]
 		},
 		{
-			"name": "Post-migration",
+			"name": "Post-upgrade",
 			"items": [{
 					"filelocation": "Template-Post-Mig",
 					"actions": []
