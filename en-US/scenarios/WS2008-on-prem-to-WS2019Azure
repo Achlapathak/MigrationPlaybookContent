@@ -6,7 +6,7 @@
 	"rationale": "SqlDbRationaleStatic",
 	"overview": "DbMigrationProcessOverviewStatic",
 	"steps": [{
-			"name": "Pre-migration",
+			"name": "Pre-upgrade",
 			"items": [{
 					"filelocation": "AccessToSqlDb-Pre-Mig",
 					"actions": []
@@ -18,7 +18,7 @@
 			]
 		},
 		{
-			"name": "Migration",
+			"name": "Upgrade",
 			"items": [{
 					"filelocation": "Template-Mig",
 					"actions": []
@@ -34,7 +34,7 @@
 			]
 		},
 		{
-			"name": "Post-migration",
+			"name": "Post-Upgrade",
 			"items": [{
 					"filelocation": "Template-Post-Mig",
 					"actions": []
