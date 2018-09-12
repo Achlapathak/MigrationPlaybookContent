@@ -5,7 +5,7 @@
       "logo": "https://i.imgur.com/2h9bV7f.jpg",
       "pages": [
         {
-          "name": "WS 2019 On-Prem",
+          "name": "WS 2016 On-Prem",
           "longname": "Windows Server 2008R2 on-premises",
           "URL": "/scenario/db2-to-azuresqldb"
         },
@@ -123,34 +123,13 @@
   ],
   "partners": [
     {
-      "filelocation": "Attunity"
+      "filelocation": "HPE"
     },
     {
-      "filelocation": "Striim"
+      "filelocation": "NEC"
     },
     {
-      "filelocation": "Ispirer"
-    },
-    {
-      "filelocation": "Datometry"
-    },
-    {
-      "filelocation": "Morphis"
-    },
-    {
-      "filelocation": "Corent"
-    },
-    {
-      "filelocation": "Informatica"
-    },
-    {
-      "filelocation": "QuerySurge"
-    },
-    {
-      "filelocation": "Movere"
-    },
-    {
-      "filelocation": "Cloudamize"
+      "filelocation": "Avanade"
     }
   ]
 }
