@@ -1,0 +1,7 @@
+{
+	"title": "NEC",
+	"text": "NEC helps manufacturers optimize their investments by aligning IT with core business processes and strategic goals.",
+	"url": "https://www.nec.com/en/global/about/index.html",
+	"logoUrl": "https://in.nec.com/nf_global/v3/common/img/site/header-img.png",
+	"logoAltText": "NEC"
+}
